@@ -72,4 +72,4 @@ QGIS template layouts for professional figure production.
 
 ## License
 
-Creative Commons Attribution 4.0 International
+CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
