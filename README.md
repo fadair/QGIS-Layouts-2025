@@ -3,7 +3,8 @@ Francis J Adair<br>
 fadair206@icloud.com<br>
 [Personal Website](https://fadair206.wordpress.com)
 
-QGIS template layouts for professional figure production.
+QGIS template layouts for professional figure production.<br>
+Available for download on [QGIS Layout-Hub](https://qgis-hub.fast-page.org/layouts.php).
 
 ### Landscape
 
