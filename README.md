@@ -21,15 +21,15 @@ Available for download on [QGIS Layout-Hub](https://qgis-hub.fast-page.org/layou
 | Project Title       | [%@project_title%] is set in the project properties.                                             |
 | Figure Title        | [%@Figure_Title%] is set in the layout variables.                                               |
 | Legend              | Small font size and spacing allows for more legend space.                                        |
-| Meta                | [%@layout_name%]<br>[% title(format_date( now(), 'dd MMMM yyyy'))%]<br>[%@Figure_Author%]       |
+| Meta                | [%@layout_name%]<br>[% title(format_date( now(), 'dd MMMM yyyy'))%]<br>[%@Figure_Author%]<br>[%@layout_pagewidth%] x [%@layout_pageheight%]  mm       |
 | Notes               | Let your imagination run wild.                                                                  |
 | Inset Map           | Make all but your basemap invisible then check the ‘Lock layers’ box.<br>Uses a red outline Overview of the Main Map. |
 | Scale Bar           | Set to ‘Fixed width’ using units and segments to fit different scales.                          |
 | Scale Number        | Numeric scale underneath the scale bar.                                                         |
 | CRS Description     | [%@project_crs_description%]<br>[%@project_crs%]                                                 |
-| Corner Coordinates  | NE Corner<br> [%round(x_max(map_get(item_variables('Map'), 'map_extent')))%],<br> [%round(y_max(map_get(item_variables('Map'), 'map_extent')))%]<br>SW Corner<br> [%round(x_min(map_get(item_variables('Map'), 'map_extent')))%],<br> [%round(y_min(map_get(item_variables('Map'), 'map_extent')))%] |
+| Corner Coordinates  | NE Corner<br>[%round(x_max(map_get(item_variables('Main Map'), 'map_extent')))%],<br>[%round(y_max(map_get(item_variables('Main Map'), 'map_extent')))%]<br>SW Corner<br>[%round(x_min(map_get(item_variables('Main Map'), 'map_extent')))%],<br>[%round(y_min(map_get(item_variables('Main Map'), 'map_extent')))%] |
 | QGIS Version        | Made with QGIS [% @qgis_short_version %] on [%title( @qgis_os_name )%]                          |
-| Attribution         | Francis J Adair; [%array_to_string(map_credits('Map'))%]                           |
+| Attribution         | F J Adair; [%array_to_string(map_credits('Main Map'))%]                           |
 | Sidebar Frame       | Width of 60 mm and contains everything except the Main Map and North Arrow.                     |
 | North Arrow         | Top right corner.                                                                                |
 | Main Map            | Select between grid elements ‘Coordinates’, ‘Interior Ticks’, ‘Solid Grid’.                    |
@@ -73,8 +73,8 @@ Available for download on [QGIS Layout-Hub](https://qgis-hub.fast-page.org/layou
 
 ### Basemaps
 
-Download the plugin [XYZ Tiles Basemap Loader](https://plugins.qgis.org/plugins/xyz_tiles_basemap_loader/).<br>
-Arrange in order with Scale Dependant Visibility:<br>
+(Suggestion) Download the plugin [XYZ Tiles Basemap Loader](https://plugins.qgis.org/plugins/xyz_tiles_basemap_loader/).<br>
+Set basemaps to your projected CRS and arrange in order with Scale Dependant Visibility:<br>
 1. Esri Imagery
 * Minimum (exclusive): 0
 * Maximum (inclusive): 1:9000000
