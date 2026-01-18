@@ -1,4 +1,4 @@
-# QGIS Layouts 2025
+# QGIS Layout A3 Templates
 Francis J Adair<br>
 fadair206@icloud.com<br>
 [Personal Website](https://fadair206.wordpress.com)
@@ -6,11 +6,11 @@ fadair206@icloud.com<br>
 QGIS template layouts for professional figure production.<br>
 Available for download on [QGIS Layout-Hub](https://qgis-hub.fast-page.org/layouts.php).
 
-### Landscape
+### Project Layout A3 Landscape
 
 <img src="QGIS Project A3 Landscape.png" alt="QGIS Project A3 Landscape"/>
 
-### Portrait
+### Project Layout A3 Portrait
 
 <img src="QGIS Project A3 Portrait.png" alt="QGIS Project A3 Portrait"/>
 
