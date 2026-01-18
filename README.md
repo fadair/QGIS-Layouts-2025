@@ -67,22 +67,8 @@ Available for download on [QGIS Layout-Hub](https://qgis-hub.fast-page.org/layou
 ## FAQ
 
 * The portrait layout allows for more legend items and provides greater vertical space.
-* Layout scale items and elements will only work if your project is using a projected CRS.
 * All items have either a black or transparent frame activated with 0.3 line thickness.
 * Verdana is used for its readability at small font sizes and compatability with software updates.
-
-### Basemaps
-
-(Suggestion) Download the plugin [XYZ Tiles Basemap Loader](https://plugins.qgis.org/plugins/xyz_tiles_basemap_loader/).<br>
-Set basemaps to your projected CRS and arrange in order with Scale Dependant Visibility:<br>
-1. Esri Imagery
-* Minimum (exclusive): 0
-* Maximum (inclusive): 1:9000000
-2. OpenTopo
-* Minimum (exclusive): 0
-* Maximum (inclusive): 1:899999
-3. OpenStreetMap
-* No Scale Dependent Visibility.
 
 ## License
 
